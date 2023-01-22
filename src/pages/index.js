@@ -12,7 +12,8 @@ export default function Home() {
   const ref = useRef();
   return (
     <div >
-      <Parallax pages={2} className="overflow-y-scroll no-scrollbar bg-[#2D2E31]">
+      {/* bg-[#2D2E31] */}
+      <Parallax pages={2} className="overflow-y-scroll no-scrollbar bg-darkColor">
         {/* <ParallaxLayer offset={0} >
           <ParallaxLayer offset={0} speed={1} className="bg-red-600 flex justify-center items-center">
             <h2>Welcome to my website</h2>

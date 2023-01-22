@@ -21,10 +21,13 @@ function FirstLayer() {
             // backgroundColor: "#2D2E31",
             backgroundSize: "cover",
             height: "100vh",
+           
+           
           }}
-          className=" bg-slate-600"
+          className=""
         >
-          <div className="bg-[#2D2E31] h-screen w-full opacity-80 -z-10 absolute" />
+          <div className='h-screen w-full bg-darkColor -z-10 absolute opacity-60' />
+          <div className=" h-screen w-full -z-10 absolute bg-gradient-to-b from-colorTheme/0 to-darkColor/100" />
           <div className="flex flex-row justify-between p-2">
             <div className="text-colorTheme flex flex-row gap-2 justify-center items-center">
               <div>NS</div>
