@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,900" rel="stylesheet" />
-      <title>My Portfolio</title>
+   
       </Head>
       <body>
         <Main />

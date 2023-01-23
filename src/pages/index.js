@@ -9,7 +9,7 @@ import tagIcon from "../assets/tag.png";
 import FirstLayer from "./Components/FirstLayer";
 import SecondLayer from "./Components/SecondLayer";
 import styles from '../styles/Home.module.css'
-import snakeandladderImg from "../assets/snakeandladder.JPG";
+import snakeandladderImg from "../assets/snakeandladder.jpg";
 export default function Home() {
   const ref = useRef();
   const alignCenter = { display: 'flex', alignItems: 'center' }

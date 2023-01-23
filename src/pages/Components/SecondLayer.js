@@ -1,7 +1,7 @@
 import { ParallaxLayer } from "@react-spring/parallax";
 import Image from "next/image";
 import React from "react";
-import snakeandladderImg from "../../assets/snakeandladder.JPG";
+import snakeandladderImg from "../../assets/snakeandladder.jpg";
 import styles from '../../styles/Home.module.css'
 function SecondLayer() {
   const alignCenter = { display: 'flex', alignItems: 'center' }
