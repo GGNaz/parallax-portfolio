@@ -15,11 +15,12 @@ module.exports = {
         colorTheme: "#14F5D6",
         darkColor: "#2D2E31"
       },
-      // screens: {
-      //   md: "768px",
-      //   lg: "1024px",
-      //   xl: "1280px",
-      // },
+      screens: {
+        sm: "480",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
       fontFamily: {
         sans: [
           '"Segoe UI"',
