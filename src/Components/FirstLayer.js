@@ -1,11 +1,11 @@
 import { ParallaxLayer,Parallax } from '@react-spring/parallax'
 import React from 'react'
-import wallpaper from "../../assets/wallpaper.jpg";
-import photo4 from "../../assets/naz1.png";
+import wallpaper from "../assets/wallpaper.jpg";
+import photo4 from "../assets/naz1.png";
 import Image from "next/image";
-import javascriptIcon from "../../assets/javascript.png";
-import tailwindIcon from "../../assets/tailwind.png";
-import htmlIcon from "../../assets/html.png";
+import javascriptIcon from "../assets/javascript.png";
+import tailwindIcon from "../assets/tailwind.png";
+import htmlIcon from "../assets/html.png";
 
 
 function FirstLayer() {
