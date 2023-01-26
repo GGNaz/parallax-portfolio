@@ -13,6 +13,7 @@ import snakeandladderImg from "../assets/snakeandladder.jpg";
 import taraeat1 from "../assets/taraeat1.jpg";
 import taraeat from "../assets/taraeat.jpg";
 import twitty from "../assets/twitty.jpg";
+import TextSphere from "./Components/TagCloud";
 export default function Home() {
   const ref = useRef();
   const alignCenter = { display: "flex", alignItems: "center" };
@@ -27,7 +28,7 @@ export default function Home() {
       </Parallax> */}
 
       <Parallax
-        pages={4}
+        pages={5}
         className="overflow-y-scroll no-scrollbar bg-darkColor"
       >
         {/* <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
@@ -108,6 +109,14 @@ export default function Home() {
           </div>
           </div>
         </ParallaxLayer>
+        <ParallaxLayer
+          offset={4}
+          speed={1.5}
+
+        >
+          <div className="bg-white/60 md:bg-transparent h-20 relative z-30"></div>
+          <TextSphere/>
+          </ParallaxLayer>
       </Parallax>
     </div>
   );
