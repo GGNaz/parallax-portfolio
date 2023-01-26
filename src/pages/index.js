@@ -4,14 +4,14 @@ import wallpaper from "../assets/wallpaper.jpg";
 import photo4 from "../assets/naz1.png";
 import Image from "next/image";
 
-import FirstLayer from "./Components/FirstLayer";
+import FirstLayer from "../Components/FirstLayer";
 
 import snakeandladderImg from "../assets/snakeandladder.jpg";
 import taraeat1 from "../assets/taraeat1.jpg";
 import taraeat from "../assets/taraeat.jpg";
 import twitty from "../assets/twitty.jpg";
 import triangle from "../assets/png/triangle.png";
-import TextSphere from "./Components/TagCloud";
+import TextSphere from "../Components/TagCloud";
 export default function Home() {
   const ref = useRef();
   const alignCenter = { display: "flex", alignItems: "center" };
