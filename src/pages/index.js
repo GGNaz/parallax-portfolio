@@ -4,7 +4,7 @@ import wallpaper from "../assets/wallpaper.jpg";
 import photo4 from "../assets/naz1.png";
 import Image from "next/image";
 
-import FirstLayer from "../Components/FirstLayer";
+import FirstLayer from "../Components/FirstLayer.js";
 
 import snakeandladderImg from "../assets/snakeandladder.jpg";
 import taraeat1 from "../assets/taraeat1.jpg";
