@@ -3,12 +3,9 @@ import { useRef } from "react";
 import wallpaper from "../assets/wallpaper.jpg";
 import photo4 from "../assets/naz1.png";
 import Image from "next/image";
-import javascriptIcon from "../assets/javascript.png";
-import tailwindIcon from "../assets/tailwind.png";
-import tagIcon from "../assets/tag.png";
+
 import FirstLayer from "./Components/FirstLayer";
-import SecondLayer from "./Components/SecondLayer";
-import styles from "../styles/Home.module.css";
+
 import snakeandladderImg from "../assets/snakeandladder.jpg";
 import taraeat1 from "../assets/taraeat1.jpg";
 import taraeat from "../assets/taraeat.jpg";
